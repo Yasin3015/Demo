@@ -1,0 +1,1394 @@
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.continer {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    /*    padding: 10px;*/
+    /*    background-color: aqua;*/
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/*......................................end basics..............
+............................*/
+
+/*.........................................start header ........
+.........................*/
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imgs/pexels-pixabay-257897%20-%20Copy.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 160% 45%;
+    border-bottom-right-radius: 160% 45%;
+}
+
+.header .header-color {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(12, 54, 85, 0.88);
+    position: absolute;
+    top: 0%;
+}
+
+/*........... start nav ......
+............................*/
+nav {
+    padding: 15px;
+    width: 88%;
+    position: absolute;
+    top: 0%;
+    /*    left: 5%;*/
+    display: flex;
+    border-bottom: .5px #e2dbdb solid;
+}
+
+nav .logo {
+    color: white;
+    text-transform: uppercase;
+    width: 5%;
+    font-size: 20px;
+}
+
+nav .logo a {
+    color: white;
+    padding-top: 20px;
+}
+
+nav .logo span {
+    color: #a87d2b;
+}
+
+nav .linkes {
+    /*    display: flex;*/
+    /*    padding: 15px;*/
+    width: 95%;
+    /*    justify-content: flex-end;*/
+}
+
+nav .linkes .lite {
+    list-style: none;
+    display: flex;
+
+    justify-content: flex-end;
+    margin-left: 10%;
+}
+
+nav .linkes ul a {
+    padding-top: 20px;
+    display: flex;
+    color: white;
+    /*    justify-content:flex-end;*/
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+
+/*//////////////////////////////////////end nav///////////////
+///////////////////////////////*/
+
+.header .info {
+    height: 50%;
+    width: 60%;
+    padding: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header .info h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+
+.header .info p {
+    color: #dddddd;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.header .info a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px #ffffff solid;
+    background-color: #f78421;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.header .info a:hover {
+    color: #f78421;
+    border: 1px #f78421 solid;
+    background-color: white;
+    transition: all .7s;
+}
+
+.search {
+    display: flex
+}
+
+ul li .foorm {
+    margin-left: 25px;
+    margin-top: -22px;
+    background-color: white;
+    width: 10 px;
+    height: 45px;
+    box-sizing: border-box;
+    display: none;
+    transition: all .75s;
+
+}
+
+
+ul li input {
+    height: 100%;
+    width: 80%;
+    border: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: none;
+}
+
+li button {
+    height: 100%;
+    width: 19.08%;
+    border: 0px;
+    font-size: 18px;
+    background-color: #cc7f17;
+    outline: none
+}
+
+.active {
+    display: block;
+    /*    margin-left: -500px;*/
+    margin-top: -17px;
+    color: #000;
+    background-color: white;
+    border: 0px;
+    width: 460px;
+    height: 45px;
+    box-sizing: border-box;
+    transition: all .75s;
+
+}
+
+.class {
+    margin-left: 10%;
+    justify-content: flex-start;
+    list-style: none;
+    display: flex;
+    /*    padding-left: 20px;*/
+    transition: all .75s;
+
+}
+
+.block {
+    display: none;
+    transition: all .75s;
+}
+
+.seen {
+    margin-top: -17px;
+    display: inline-block;
+    color: #000;
+    background-color: #d17c08;
+    font-size: 25px;
+    width: 35px;
+    height: 45px;
+    justify-content: flex-end;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-left: 1px #000 solid;
+    transition: all .75s;
+
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+
+.read {
+    display: block;
+    transition: all .75s;
+}
+
+
+/*/////////////////////////////////////////// end header /////////////////*/
+
+
+/*/////////////////////////////////////////////start about //////////////*/
+
+.whoAreUs {
+    height: 180vh;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: white;
+}
+
+.information {
+    height: 85vh;
+    width: 55%;
+    padding: 25px;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+.information h1 {
+    font-size: 40px;
+    font-size: bolder;
+    font-family: monospace;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.information span {
+    color: orange;
+    position: absolute;
+    bottom: 100%;
+    right: 83%;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+
+.information h1::before {
+    content: "";
+    color: orange;
+    height: 1px;
+    width: 6px;
+    position: absolute;
+    bottom: 100%;
+    padding-bottom: 10px;
+}
+
+.information p {
+    font-size: 17px;
+    color: #000;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.information a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px #ffffff solid;
+    background-color: #f78421;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 120px;
+}
+
+.information a:hover {
+    color: #f78421;
+    border: 1px #f78421 solid;
+    background-color: white;
+    transition: all .7s;
+}
+
+.flex {
+    display: flex
+}
+
+.photo {
+    margin-left: 70px;
+    height: 85vh;
+    width: 32%;
+    background-image: url(../imgs/pexels.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.photo .photoInfo {
+    position: absolute;
+    | height: 30%;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(255, 78, 0, 0.79);
+    box-sizing: border-box;
+    display: none;
+}
+
+.photo:hover .photoInfo {
+    position: absolute;
+    bottom: 50px;
+    right: 13%;
+    box-shadow: 5px 4px 10px 8px #55534a;
+    display: block;
+    transition: all 1s;
+}
+
+.photoInfo:hover {
+    border: 2px dashed #000;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/*////////////////////////////////////////strt about cardes ///////////////////////////////*/
+
+.cardesinfo {
+    height: 20vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    padding-right: 200PX;
+    padding-left: 200PX;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.aboutcardes h1,
+.cardesinfo h1 {
+    font-family: monospace;
+    font-size: 35px;
+    color: #000;
+    padding: 25px;
+
+}
+
+.cardes {
+    height: 42vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardes .cadr {
+    height: 100%;
+    width: 29%;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.cardes .cadr:hover {
+    box-shadow: 4px 3px 10px 13px #b4b4b4;
+    transition: all .75s;
+}
+
+.cardes .cadr i {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.cardes .cadr i:hover {
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    transition: all .75s;
+}
+
+.cardes .cadr h2 {
+    text-transform: capitalize;
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.cardes .cadr a {
+    padding-top: 15px;
+    text-decoration: none;
+    color: orange;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+
+}
+
+.cardes .cadr a:hover {
+
+    border-bottom: 1px solid orange;
+
+}
+
+/*////////////////////////////////////////end about cardes ///////////////////////////////*/
+
+
+/*/////////////////////////////////////////////start aboiut //////////////*/
+
+/*////////start prog/////////*/
+
+.prog {
+    height: 72vh;
+    width: 100%;
+    background-image: url(../imgs/we.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: monospace;
+}
+.prog h1
+{
+    color: white;
+}
+
+.prog .color {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 54, 85, 0.88);
+}
+
+.circles {
+    display: flex;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    margin-left: 60px;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(142, 75, 6);
+    stroke-width: 4;
+    stroke-linecap: round;
+    transform: translate(5px, 5px)
+}
+
+svg circle:nth-child(2) {
+    
+    stroke-width: 7;
+    stroke: rgb(255, 88, 0);
+}
+
+.circle:nth-child(1) svg circle:nth-child(2) {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+}
+
+.circle:nth-child(2) svg circle:nth-child(2) {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 600;
+}
+
+.circle:nth-child(3) svg circle:nth-child(2) {
+    stroke-dasharray: 220;
+    stroke-dashoffset:320;
+}
+
+.circle:nth-child(4) svg circle:nth-child(2) {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 700;
+}
+
+.circle:nth-child(5) svg circle:nth-child(2) {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 650;
+}
+
+.circle .num
+{
+    margin-left: 100px;
+    margin-top: -105px;
+    font-size: 30px;
+}
+.head
+{
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+/*////////end prog/////////*/
+
+/*//////start video//////////*/
+
+.video {
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.video .photo {
+    margin-left: 27%;
+    height: 43vh;
+    width: 45%;
+    background-image: url(../imgs/gg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.video .photo .color {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    background-color: rgba(6, 39, 77, 0.82);
+    color: white;
+    display: flex;
+}
+
+
+.video .photo .color .control {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.video .photo .color .control:hover {
+    background-color: rgba(235, 228, 228, 0.094);
+    transition: all 1s;
+}
+
+.video .photo .color .control:hover .cont {
+    background-color: rgba(178, 185, 191, 0.13);
+    transition: all .35s;
+}
+
+.video .photo .color .control .cont {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.video .photo .color .control .cont a {
+    /*    margin-right: 25px;*/
+    padding-top: 25px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.video .photo .color .paragraph {
+    padding-top: 50px;
+    height: 250px;
+    width: 350px;
+    font-size: 23px;
+    color: white;
+
+}
+
+/*/////////end video//////////*/
+
+
+/*//////cardes/////////////*/
+
+.background
+{
+    background-color: #ededed;
+    height: 93vh;
+    box-sizing: border-box;
+    padding-top: 90px;
+}
+
+.cardesinfo {
+    height: 20vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    width: 100%;
+    padding-right: 200PX;
+    padding-left: 200PX;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.aboutcardess {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.aboutcardess h1 {
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 35px;
+    color: #000;
+    padding: 25px;
+
+}
+
+.cardes {
+    height: 42vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardes .card i {
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 60px;
+    border-radius: 50%
+}
+
+.cardes .card i:hover {
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    transition: all .75s;
+}
+
+.cardes .card h2 {
+    text-transform: capitalize;
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.cardes .card p {
+
+    line-height: 25px;
+    font-size: 17px
+}
+
+
+
+.cardes .card {
+    background-color: white;
+    box-shadow: 1px 2px 4px 6px #dddddd;
+    height: 90%;
+    width: 21%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px;
+    padding-top: 30px;
+    margin: 15px;
+    border-radius: 3px;
+}
+
+.cardes .card:hover {
+    box-shadow: none;
+    border: 1px solid #000;
+    margin-top: -20px;
+    transition: all .75s;
+}
+
+
+/*//////cardes/////////////*/
+
+/**/
+
+#height {
+    margin-top: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 135vh;
+
+    margin-top: 0px;
+}
+
+#cardes {
+    height: 75vh;
+}
+
+.continer .infoo {
+    height: 20vh;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+    padding-right: 200PX;
+    padding-left: 200PX;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.continer .infoo h1 {
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 35px;
+    color: #000;
+    padding: 25px;
+
+}
+
+.cardseal {
+    height: 75vh;
+    width: 28%;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 4px 8px 10px #dddddd;
+    box-sizing: border-box;
+}
+
+.cardseal:hover {
+    box-shadow: 1px 2px 5px 7px #dddddd;
+    margin-top: 20px;
+    transition: all .75s;
+}
+
+
+.cardseal i {
+    color: orange;
+    font-size: 35px;
+    margin: 15px;
+    margin-bottom: 10px
+}
+
+.cardseal h1 {
+    font-family: monospace;
+    margin: 10px;
+}
+
+.cardseal select {
+    border: none;
+    margin: 5px;
+    color: #4a4a4a;
+    outline: none;
+    font-size: 22px
+}
+
+
+.cardseal button {
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+.cardseal button:hover,
+.cardseal button:hover i {
+    background-color: orange;
+    color: white;
+    transition: all .75s;
+}
+
+.cardseal button i {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.cardseal ul {
+    margin-top: 20px;
+}
+
+.cardseal li {
+    font-family: monospace;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 5px;
+    color: #464646;
+    text-transform: capitalize;
+    border-top: 1px solid #dddddd;
+}
+
+.cardseal li i {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 2px;
+    font-size: 15px;
+    color: #0cdb83
+}
+
+.cardseal .cross {
+    color: #9b9b9b;
+    text-decoration: line-through;
+}
+
+.cardseal .wrong {
+    color: red
+}
+
+.photoo {
+    height: 16.5vh;
+    position: relative;
+    box-sizing: border-box;
+    margin: 40px;
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 92.5%;
+    background-image: url(../imgs/we.jpg);
+    background-size: cover;
+}
+
+.photoo .color {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 0%;
+    color: white;
+    background-color: rgba(55, 26, 149, 0.9);
+    left: 0%;
+    border-radius: 5px;
+}
+
+.photoo .color h2 {
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.photoo .color .que {
+    display: flex;
+
+}
+
+.photoo .color p {
+    width: 80%;
+    font-size: 17px;
+}
+
+.photoo .color a{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+}
+
+/**/
+/*//////start team memberes//*/
+.team
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #ededed;
+    margin-top: 20px;
+}
+.teamcardes
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+}
+.teamcardes .teamcard
+{
+    height: 65vh;
+    border-radius: 5px;
+    width: 33%;
+    background-color: white;
+    box-sizing:border-box;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 3px 5px 10px 12px #c6c6c6;
+/*    */
+}
+.teamcardes .teamcard:hover
+{
+    box-shadow: none;
+    transition: all .75s;
+    
+}
+.teamcardes .teamcard .memphoto
+{
+    height: 45%;
+    width: 100%;
+}
+.teamcardes .teamcard .memphoto img
+{
+    height: 100%;
+    width: 100%;
+}
+.teamcardes .teamcard .meminfo
+{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.teamcardes .teamcard .meminfo .img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.teamcardes .teamcard .meminfo .img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.teamcardes .teamcard .meminfo .inform
+{
+    padding-top: 7px;
+    text-transform: capitalize;
+}
+
+.teamcardes .teamcard .meminfo .inform p
+{
+    color: #6a6a6a
+}
+.teamcardes .teamcard .said
+{
+    height: 35%;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.teamcardes .teamcard .said h2
+{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: -10px;
+    
+}
+.teamcardes .teamcard .said a
+{
+    color: orange;
+    font-size: 17px;
+    font-family: monospace;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+/*//////end team memberes//*/
+
+
+/*////////start contact///////*/
+
+.contact
+{
+    height: 100vh;
+    width: 100%;
+/*    background-color: #ededed;*/
+}
+.continer .conta
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.continer .conta .form
+{
+    height: 100%;
+    width: 60%;
+    
+}
+.continer .conta .form .contactheader
+{
+    height: 20%;
+    width: 100%;
+    padding-right: 70px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    color: #777777;
+    
+}
+.continer .conta .form .contactheader h1
+{
+    color: #000;
+    font-family: monospace;
+    margin-bottom: 20px;
+    text-transform: capitalize
+}
+.continer .conta .form input
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1px 1.5px 3px 4.5px #e8e8e8;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 15px;
+    color: #848484;
+    box-sizing: border-box;
+}
+.continer .conta .form textarea
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 130px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: .3px 1.5px 2.5px 3.5px #e8e8e8;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 15px;
+    color: #848484;
+    box-sizing: border-box;
+}
+.continer .conta .form button
+{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: .3px 1.5px 2.5px 3.5px #e8e8e8;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 15px;
+    color: #fff;
+    background-color: orange;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.continer .conta .form button:hover
+{
+    box-shadow: none;
+    border: 1px solid orange;
+    color: orange;
+    background-color: rgba(240, 248, 255, 0);
+    transition: all .75s;
+}
+.vid
+{
+    height: 470px;
+    box-sizing: border-box;
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 15%;
+    padding: 40px;
+    text-align: right;
+    background-color: #0e1bad
+}
+.vid .vidimg
+{
+    height: 100%; 
+    width: 250px;
+    background-image: url(../imgs/viid.jpg);
+    background-size: cover;
+    margin-left: -170px;
+    position: relative;
+}
+.vid .vidimg .control {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    right: 20%;
+    box-sizing: border-box;
+}
+
+.vid .vidimg .control:hover {
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+ .vid .vidimg .control:hover .cont 
+{
+    border: 1px solid white;
+    transition: all .35s;
+}
+
+.vid .vidimg  .control .cont 
+{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.vid .vidimg .control .cont a
+{
+    /*    margin-right: 25px;*/
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 42px;
+    color: white;
+    border-radius: 50%;
+}
+
+/*////////start contact///////*/
+
+/*/////start footer//////////*/
+.footer
+{
+    height: 57vh;
+    width: 100%;
+    color: #6c6c6c;
+    overflow: hidden;
+    background-color: #12124d
+}
+.footer .linkkes
+{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 70px;
+    box-sizing: border-box;
+    display: flex;
+}
+.footer .linkkes .section
+{
+    height: 100%;
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.footer .linkkes .section span {
+    color: #a87d2b;
+}
+#link{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: white;
+}
+.footer .linkkes .section p
+{
+    color: #6c6c6c;
+    line-height: 25px;
+}
+.footer .linkkes .section input
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 15px;
+    color: #848484;
+    box-sizing: border-box;
+}
+.footer .linkkes .section button
+{
+    margin-top: 5px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    color: #fff;
+    background-color: orange;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.footer .linkkes .section button:hover
+{
+    border: 1px solid orange;
+    color: orange;
+    background-color: rgba(240, 248, 255, 0);
+    transition: all .75s;
+}
+.footer .linkkes .section i
+{
+    margin-top: 15px;
+    font-size: 23px;
+    color: #030b22
+}
+.footer .linkkes .section i:hover
+{
+    color: orangered;
+    transition: all .75s
+}
+.footer .linkkes .section h1
+{
+    color: white;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+.footer .linkkes .section li a
+{
+    color: #6c6c6c;
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+.footer .linkkes .section li a:hover
+{
+    color: #9fa0a0
+}
+.footer .linkkes .section ul
+{
+    list-style: none;
+}
+footer
+{
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    background: #030c29
+}
+/*/////start footer//////////*/
+
+/*//////important deves for videos//////////*/
+.foorm
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.close
+{
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
+.videoo
+{
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+}
+.videoo iframe
+{
+    height: 100%;
+    width: 100%;
+}
+
+/*////// go up button///*/
+.goup
+{
+    display: none;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    background-color: orangered;
+    position: fixed;
+    bottom: 60px;
+    border-radius: 3px;
+    box-shadow: .4px .6px 1px 4px #dddbdb;
+    right: 20px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+/*    opacity: 0;*/
+}
+.goup i
+{
+    font-size: 30px;
+    color: white;
+}
+/*/////////end/////////*/
+
+
+
+
+
+
+
+
+
